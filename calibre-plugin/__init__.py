@@ -21,7 +21,7 @@ if False:
 
 load_translations()
 
-__version__ = (0, 1, 9)
+__version__ = (0, 2, 0)
 PLUGIN_NAME = "overdrive_libby"
 PLUGIN_ICON = "images/plugin.svg"
 PLUGINS_FOLDER_NAME = "plugins"
@@ -55,7 +55,7 @@ class ActionLibby(InterfaceActionBase):
     name = "OverDrive Libby"
     description = _("Import loans from your OverDrive Libby account")
     supported_platforms = ["windows", "osx", "linux"]
-    author = "ping"
+    author = "jrt & ping"
     version = __version__
     minimum_calibre_version = (5, 34, 0)
 
