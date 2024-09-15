@@ -207,7 +207,7 @@ class OverdriveLibbyAction(InterfaceAction):
             self.main_dialog.finished.connect(self.main_dialog_finished)
             window_title = _("OverDrive Libby v{version}{dev}").format(
                 version=".".join([str(d) for d in __version__]),
-                dev=f"*{self.development_version[:7]}"
+                dev=f"-{self.development_version[:7]}"
                 if self.development_version
                 else "",
             )
